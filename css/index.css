@@ -2,13 +2,14 @@
     display: flex;
     justify-content: space-between;
     padding-top: 18px;
+    flex-wrap: wrap;
+    gap: 8px 0;
 }
 
 .header__name {
     font-family: 'OpenSans';
     font-weight: 600;
     font-size: 32px;
-
 }
 
 .header__categories {
@@ -64,12 +65,39 @@
     background-color: #535353;
 }
 
+.main__sale {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.main__sale-info {
+    flex-basis: 50%;
+}
+
 .main__sale-text {
     font-family: 'Inter';
     font-weight: 600;
     font-size: 40px;
-    margin-top: 162px;
     line-height: 120%;
+}
+
+@media (max-width: 992px) {
+    .main__sale-text {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 769px) {
+    .main__sale {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 431px) {
+    .main__sale-buttons {
+        display: inline-block;
+    }
 }
 
 .main__sale-subtext {
@@ -86,4 +114,12 @@
     background-color: #000;
     padding: 10px 16px;
     margin-top: 16px;
+}
+
+.goods__title {
+    font-family: 'OpenSans';
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 120%;
+    margin: 0;
 }
