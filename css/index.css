@@ -69,6 +69,7 @@
     font-weight: 600;
     font-size: 40px;
     margin-top: 162px;
+    line-height: 120%;
 }
 
 .main__sale-subtext {
@@ -76,11 +77,13 @@
     font-weight: 300;
     font-size: 18px;
     margin-top: 16px;
+    line-height: 120%;
 }
 
 .main__sale-button {
+    display: inline-block;
     color: #fff;
     background-color: #000;
-    padding: 8px 16px;
+    padding: 10px 16px;
     margin-top: 16px;
 }
