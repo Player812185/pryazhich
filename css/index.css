@@ -40,23 +40,24 @@
     background: url(../img/search.png) no-repeat center right 12px;
 }
 
-.header__login-button {
-    color: #fff;
-    padding: 10px 17px;
-    background-color: #000;
-}
-
-.header__trash-button {
-    border: #000 solid 2px;
-    color: #000;
-    padding: 8px 17px;
-}
-
 .button {
     font-family: 'OpenSans';
     font-weight: 600;
     font-size: 16px;
     border-radius: 8px;
+    padding: 8px 16px;
+    display: inline-block;
+}
+
+.button_black {
+    background-color: #000;
+    color: #fff;
+}
+
+.button_border {
+    border: #000 solid 2px;
+    color: #000;
+    padding: 6px 14px;
 }
 
 .button:hover {
@@ -101,25 +102,19 @@
     margin-top: 16px;
 }
 
-.hero__goods {
-    position: absolute;
-    margin-top: 1050px;
+.goods__items {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
 }
 
-.hero__title {
+.goods__title {
     font-family: 'OpenSans';
     font-weight: 600;
     font-size: 36px;
 }
 
-.hero__good {
-    margin-top: 26px;
-    float: left;
-}
 
-.hero__good:not(.first-good) {
-    margin-left: 26px
-}
 
 .hero__good-info {
     margin: 8px;
