@@ -101,13 +101,56 @@
     margin-top: 16px;
 }
 
-.hero__image {
-    flex-basis: 50%;
+.hero__goods {
+    position: absolute;
+    margin-top: 1050px;
 }
 
-.goods__title {
+.hero__title {
     font-family: 'OpenSans';
-    font-size: 36px;
     font-weight: 600;
+    font-size: 36px;
+}
+
+.hero__good {
+    margin-top: 26px;
+    float: left;
+}
+
+.hero__good:not(.first-good) {
+    margin-left: 26px
+}
+
+.hero__good-info {
+    margin: 8px;
+    color: #000;
+}
+
+.hero__good-name {
+    font-family: 'OpenSans';
+    font-weight: 600;
+    font-size: 20px;
     line-height: 120%;
+    width: 272px;
+}
+
+.hero__good-prices {
+    display: flex;
+}
+
+.hero__good-price {
+    font-family: 'OpenSans';
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 8px;
+}
+
+.hero__good-previous-price {
+    font-family: 'OpenSans';
+    font-weight: 300;
+    font-size: 14px;
+    color: #999;
+    text-decoration: line-through;
+    padding-top: 14px;
+    padding-left: 8px;
 }
