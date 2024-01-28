@@ -85,8 +85,9 @@ body {
     font-family: 'OpenSans';
     font-weight: 600;
     font-size: 40px;
-    width: 514px;
+    width: 600px;
     height: 144px;
+    margin-bottom: 16px;
 }
 
 .hero__subtext {
@@ -95,6 +96,7 @@ body {
     font-size: 18px;
     width: 475px;
     height: 88px;
+    margin-bottom: 16px;
 }
 
 .goods__container {
@@ -105,6 +107,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin-bottom: 16px;
+    align-items: center;
 }
 
 .goods__items {
@@ -157,7 +160,6 @@ body {
 }
 
 .faq__title {
-    width: 1224px;
     color: #000;
     font-family: "OpenSans";
     font-size: 36px;
@@ -227,7 +229,7 @@ body {
 
 .footer__additionaly-item:last-child {
     font-size: 14px;
-    width: 288px;
+    flex-basis: 288px;
 }
 
 .footer__contacts-item {
