@@ -1,0 +1,30 @@
+@media (max-width: 426px) {
+    .hero__container {
+        flex-direction: column;
+    }
+
+    .hero__text {
+        justify-content: center;
+        width: 360px;
+    }
+
+    .hero__subtext {
+        margin-top: 10px;
+        width: 360px;
+    }
+
+    .hero__button {
+        display: inline-block;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 410px) {
+    .goods__header {
+        flex-direction: column;
+    }
+
+    .goods__button {
+        width: 115px;
+    }
+}

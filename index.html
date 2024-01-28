@@ -14,16 +14,16 @@
     <header class="header container">
         <h1 class="header__name">Пряжич</h1>
         <ul class="header__categories">
-            <li class="header__categories-element"><a href="#">Сеты</a></li>
-            <li class="header__categories-element"><a href="#">Мягкие игрушки</a></li>
-            <li class="header__categories-element"><a href="#">Брелки</a></li>
-            <li class="header__categories-element"><a href="#">Мини (что-то)</a></li>
+            <li class="header__category"><a href="#">Сеты</a></li>
+            <li class="header__category"><a href="#">Мягкие игрушки</a></li>
+            <li class="header__category"><a href="#">Брелки</a></li>
+            <li class="header__category"><a href="#">Мини (что-то)</a></li>
         </ul>
         <form action="#">
             <input type="text" class="header__search" placeholder="Найти...">
         </form>
         <div class="header__buttons">
-            <a href="#" class="header__button button button_black">Войти</a>
+            <a href="#" class="header__button button button_red">Войти</a>
             <a href="#" class="header__button button button_border">Корзина (0)</a>
         </div>
     </header>
@@ -38,7 +38,7 @@
                         мягкие игрушки по низкой цене, а мы сделаем все,
                         чтобы помочь вам оформить подарок и успеть
                         подарить его к любому сроку</p>
-                    <a href="#" class="hero__button button">В каталог</a>
+                    <a href="#" class="hero__button button button_red">В каталог</a>
                 </div>
                 <img src="img/ice_cream.png" alt="Мороженки" class="hero__image">
             </div>
@@ -47,7 +47,7 @@
             <div class="goods__container container">
                 <div class="goods__header">
                     <h1 class="goods__title">Скидки до 20%</h1>
-                    <a href="#" class="goods__button button button_black">В каталог</a>
+                    <a href="#" class="goods__button button button_red">В каталог</a>
                 </div>
                 <div class="goods__items">
                     <div class="goods__item">
@@ -100,8 +100,63 @@
                     </div>
                 </div>
             </div>
+            <div class="faq">
+                <div class="faq__container container">
+                    <h1 class="faq__title">Частозадаваемые вопросы</h1>
+                    <div class="faq__items">
+                        <details class="faq__item">
+                            <summary class="faq__question">Какие условия доставки?</summary>
+                            <p class="faq__answer">Мы осуществляем бесплатную доставку с помощью транспортных компаний
+                                (если
+                                вы находитесь в
+                                Калининграде, то отдадим лично в руки). В
+                                остальных случаях доставка нами не оплачивается, и будет зависеть от веса посылки,
+                                региона,
+                                скорости а также транспортной компании</p>
+                        </details>
+                        <details class="faq__item">
+                            <summary class="faq__question">Вы правда можете успеть к любому сроку?</summary>
+                            <p class="faq__answer"></p>
+                        </details>
+                        <details class="faq__item">
+                            <summary class="faq__question">Где производятся ваши товары?</summary>
+                            <p class="faq__answer"></p>
+                        </details>
+                        <details class="faq__item">
+                            <summary class="faq__question">Как купить, если я не из России?</summary>
+                            <p class="faq__answer"></p>
+                        </details>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
+    <footer>
+        <div class="footer">
+            <div class="footer__container container">
+                <div class="footer__column">
+                    <h1 class="footer__name">Пряжич</h1>
+                    <p class="footer__description">Доставка лучших игрушек</p>
+                </div>
+                <div class="footer__column">
+                    <h1 class="footer__categories-title">Категории</h1>
+                    <ul class="footer__categories">
+                        <li class="footer__category">Сеты</li>
+                        <li class="footer__category">Мягкие игрушки</li>
+                        <li class="footer__category">Брелки</li>
+                        <li class="footer__category">Мини-игрушки</li>
+                    </ul>
+                    <div class="footer__button button button_red">В каталог</div>
+                </div>
+                <div class="footer__column">
+                    <h1 class="footer__addiionaly-title">Дополнительное</h1>
+                    <ul class="footer__additionaly-items">
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

@@ -104,3 +104,11 @@ h6 {
 img {
 	max-width: 100%;
 }
+
+details summary {
+	list-style: none;
+}
+
+details summary:hover {
+	cursor: pointer;
+}
