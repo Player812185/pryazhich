@@ -127,6 +127,10 @@ body {
     color: #000;
 }
 
+.good__image {
+    width: 288px;
+}
+
 .good__name {
     font-family: 'OpenSans';
     font-weight: 600;
